@@ -14,7 +14,11 @@ public class MainClass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        // Imprime la cadena Hola Mundo invertida = odnuM aloH
+        System.out.println(MyUtils.inverteix("null"));
+        
+        System.out.println(MyUtils.edat(11, 03, 1850));
     }
-    
+
 }
